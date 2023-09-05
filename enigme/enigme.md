@@ -7,6 +7,7 @@ Chaque journée, il part un train de Paris vers Lyon à chaque heure pleine, pui
 ## Les châteaux de cartes
 
   Savez-vous construire des châteaux de cartes. Avec un étage, c'est très simple :
+  
   ![Alt text](image.png)
 
 Avec deux étages, ce n'est pas beaucoup plus compliqué :
