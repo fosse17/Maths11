@@ -1,7 +1,7 @@
 #set enum(numbering: "1. a. i.", indent: 0pt)
 #set heading(numbering: "1.a.i.")
 #set page("a4", margin: (x:1.5cm,y:1.5cm),
-footer: [Division Euclidienne  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
+footer: [Congruence 1 #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
 
 #let c = counter("mycounter")
 
@@ -23,11 +23,13 @@ footer: [Division Euclidienne  #h(1fr) #counter(page).display("1 / 1",both: true
   columns: (1fr,2fr,1fr),
   rows: (50pt),
   [#align(left+top)[#image("../iut_bordeaux.jpg")]],
-  [#align(center+horizon)[#text(18pt)[Arithmétique] \ #text(14pt)[Division euclidienne]],],
+  [#align(center+horizon)[#text(18pt)[Arithmétique] \ #text(14pt)[Congruence 1]],],
   [#align(right+horizon)[ Mathématiques discrètes \ 2024 - 2025 ]]
 )
 
 #head()
+
+#outline(indent: 10pt)
 
 
 = Définition de la congruence modulo n
@@ -127,7 +129,7 @@ pour tous entiers $a$, $b$, $c$, on a :
 + Si $a equiv b (n)$ et si $b equiv c (n)$, alors $a equiv c (n)$ (transitivité)
 
 
-== Théorème
+== Théorème : lien avec la divisibilité
 + Soit $n$ un entier naturel $(n gt.eq 2)$, $a$ et $b$ deux entiers relatifs.
 
 $ a equiv b (n) arrow.l.r.double a - b equiv 0 (n) $
@@ -159,25 +161,12 @@ La relation de congruence est compatible :
 
 Déterminer les restes dans la division euclidienne par 7 des nombres :
 
-1) $50^100$
++ $50^100$
++ 100
++ $100^3$
++ $50^100 + 100^100$
++ $15 times 6^43 - 48$.
 
-2) 100
-
-3) $100^3$
-
-4) $50^100 + 100^100$
-
-5) $15 times 6^43 - 48$.
-
-
-```python
-50**100
-```
-
-
-```
-78886090522101180541172856528278622967320643510902300477027893066406250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-```
 
 #Exercice("")
 
@@ -215,4 +204,3 @@ Tout entier est congru modulo 6 à un des entiers 0, 1, 2, 3, -1 ou -2.
 
 + Montrer que : $forall n in bb(N) , 3^(2 n + 1) + 2^(n + 2)$ est divisible par 7.
 
-pa

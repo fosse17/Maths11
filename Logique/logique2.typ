@@ -2,7 +2,7 @@
 #set heading(numbering: "1. a. i.")
 #set page("a4", 
 margin: (top: 20mm, bottom: 20mm, left: 20mm, right: 20mm),
-footer: [Livret d'exercices  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
+footer: [Logique 2  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
 
 #let c = counter("mycounter")
 

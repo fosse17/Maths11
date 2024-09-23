@@ -1,7 +1,7 @@
 #set enum(numbering: "1. a. i.", indent: 0pt)
-#set page("a4", margin: (x:1.5cm,y:1.5cm),
+#set page("a4", margin: (x:1.5cm,y:1.5cm), numbering: "1.a.i.",
 footer: [Nombres premiers  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
-
+#set heading(numbering: "1.a.i.")
 #let c = counter("mycounter")
 
 #let Exercice(t) = block[
@@ -27,6 +27,8 @@ footer: [Nombres premiers  #h(1fr) #counter(page).display("1 / 1",both: true)  #
 )
 
 #head()
+
+#outline(indent: 10pt)
 
 = Reconnaître un nombre premier
 

@@ -54,7 +54,7 @@ Les énoncés suivants sont-ils des prédicats ?
 3. $P(t) : cos(t)=1.$
 4. $P(x) : x "est positif".$
 5. $P(x,y) :x in RR,y in RR, x=2y.$
-6. $P(x) : x in RR, x^2 = 1.$
+6. $P(x) : x in RR, x^2 >= 1.$
 
 #Exercice("")
 
@@ -87,7 +87,7 @@ Les propositions suivantes sont-elles vraies ou fausses ?
 
 Les propositions suivantes sont-elles vraies ou fausses ?
 + pour tout $ x$  dans $RR^+$, $0 <= x <= 25 => sqrt(x) <= 5$.  
-+ pour tout $x$ dans $RR$, $x in ]-oo, -4[ => x^2+3x-4  0$.  
++ pour tout $x$ dans $RR$, $x in ]-oo, -4[ => x^2+3x-4>0$.  
 + pour tout $theta$ dans $ RR$,$ sin(theta)=0 => theta = 0$.
 + $ 1$ est un nombre premier implique que $27$ est un nombre premier.   
 + Si $2$ divise $4$ alors $2$ divise $3$. 

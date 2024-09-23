@@ -2,7 +2,7 @@
 #set heading(numbering: "1. a. i.")
 #set page("a4", 
 margin: (top: 20mm, bottom: 20mm, left: 20mm, right: 20mm),
-footer: [Livret d'exercices  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
+footer: [Logique 4 #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
 
 #let c = counter("mycounter")
 
@@ -26,7 +26,7 @@ footer: [Livret d'exercices  #h(1fr) #counter(page).display("1 / 1",both: true) 
   columns: (1fr,2fr,1fr),
   rows: (50pt),
   [#align(left+top)[#image("../iut_bordeaux.jpg")]],
-  [#align(center+horizon)[#text(18pt)[Les connecteurs logiques] \ TD2 \ Logique et raisonnements]],
+  [#align(center+horizon)[#text(18pt)[Les connecteurs logiques] \ TD4 \ Logique et raisonnements]],
   [#align(right+horizon)[ Mathématiques discrètes \ 2024 - 2025 ]]
 )
 
@@ -116,18 +116,6 @@ Un demi-additionneur ou #emph[Half Adder (HA)] est un circuit qui additionne les
 
 + Compléter la table suivante pour $A plus B$ :
 
-\$\$
-\\begin{array}{|c|c|c|c|}
-\\hline
-A & B &  \\color{red}Sum & \\color{red}Carry  \\\\
-\\hline
-0 & 0 & & \\\\
-0 &1 & & \\\\
-1&0 & & \\\\
-1&1& & \\\\
-\\hline
-\\end{array}
-\$\$
 #align(center,table(columns: 4, align:center,
 [A],[B],[Sum],[Carry],
 [0],[0],[],[],
@@ -160,7 +148,7 @@ circuits.
   $lr((A plus B plus C_(i n)))$:
 
 #align(center,table(columns: 5, align:center,
-[A],[B],[C_in],[Sum],[C_out],
+[A],[B],[$C_(i n)$],[Sum],[$C_(o u t)$],
 [0],[0],[0],[],[],
 [0],[0],[1],[],[],
 [0],[1],[0],[],[],

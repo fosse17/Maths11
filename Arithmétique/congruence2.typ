@@ -1,7 +1,7 @@
 #set enum(numbering: "1. a. i.", indent: 0pt)
 #set heading(numbering: "1.a.i.")
 #set page("a4", margin: (x:1.5cm,y:1.5cm),
-footer: [Division Euclidienne  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
+footer: [Congruence 2  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
 
 #let c = counter("mycounter")
 
@@ -23,11 +23,12 @@ footer: [Division Euclidienne  #h(1fr) #counter(page).display("1 / 1",both: true
   columns: (1fr,2fr,1fr),
   rows: (50pt),
   [#align(left+top)[#image("../iut_bordeaux.jpg")]],
-  [#align(center+horizon)[#text(18pt)[Arithmétique] \ #text(14pt)[Division euclidienne]],],
+  [#align(center+horizon)[#text(18pt)[Arithmétique] \ #text(14pt)[Congruence 2]],],
   [#align(right+horizon)[ Mathématiques discrètes \ 2024 - 2025 ]]
 )
 
 #head()
+
 
 #Exercice("")
 

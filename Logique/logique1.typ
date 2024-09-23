@@ -2,7 +2,7 @@
 #set heading(numbering: "1. a. i.")
 #set page("a4", 
 margin: (top: 20mm, bottom: 20mm, left: 20mm, right: 20mm),
-footer: [Livret d'exercices  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
+footer: [Logique 1  #h(1fr) #counter(page).display("1 / 1",both: true)  #h(1fr) IUT de Bordeaux])  
 
 #let c = counter("mycounter")
 
@@ -186,7 +186,7 @@ On reprend ceci dans la table de vérité :
 - $p$ : #emph["n est un nombre entier."] \
 - $q$ : #emph["n est compris entre 7,5 et 11,3".]
 
-La proposition $P : p or q$ est vraie pour $n in brace.l 7.5 semi 11.3 brace.r$.
+La proposition $P : p or q$ est vraie pour $n in [ 7.5 semi 11.3 ]$.
 
 *Remarque :*
 
@@ -246,10 +246,9 @@ La table de vérité est :
 Les propositions suivantes sont-elles vraies ou fausses ?
 
 - pour tout $ x in bb(R)^plus, quad 0 lt.eq x lt.eq 25 => sqrt(x) lt.eq 5$. \
-- pour tout $x in bb(R), quad x in bracket.r minus oo , minus 4 bracket.l => x^2 plus 3 x minus 4 gt 0$.
+- pour tout $x in bb(R), quad x in bracket.r minus oo , minus 4 bracket.l => x^2 plus 3 x minus 4 > 0$.
   \
-- pour tout $theta in bb(R),quad sin(theta)=0
-  => theta = 0$.
+- pour tout $theta in bb(R),quad sin(theta)=0 => theta = 0$.
 - $1$ est un nombre premier implique que $27$ est un nombre premier.
 - Si $2$ divise $4$ alors $2$ divise $3$.
 - $2$ divise $4$ si $2$ divise $3$.
